@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "406769897410",
+    "project_id": "calculatorassignment-10e4d",
+    "storage_bucket": "calculatorassignment-10e4d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:406769897410:android:88db611e9244e2f5c4905b",
+        "android_client_info": {
+          "package_name": "com.example.calculatorassignment"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "406769897410-05kntshqk38apevq0ab3fu13ebpc61dk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDX3nQcJet2g5nDkvGq9-3RTDwgM6f6grU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "406769897410-05kntshqk38apevq0ab3fu13ebpc61dk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
