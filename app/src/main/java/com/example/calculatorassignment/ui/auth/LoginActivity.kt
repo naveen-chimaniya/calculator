@@ -33,7 +33,6 @@ class LoginActivityX : BaseActivity<ActivityLoginxBinding>(),AuthListener{
 
     override fun onSuccess() {
         binding.progressbar.visibility = View.GONE
-        Log.d("Login","Success")
         startActivity(Intent(this, HomeActivity::class.java))
         finish()
     }

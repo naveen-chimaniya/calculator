@@ -41,6 +41,5 @@ class HistoryListFragment : BottomSheetDialogFragment() {
         super.onViewCreated(view, savedInstanceState)
         binding.rvHistory.adapter = adapter
         adapter.historyList = arguments?.getStringArrayList("historyList")!!
-//        adapter.notifyDataSetChanged()
     }
 }

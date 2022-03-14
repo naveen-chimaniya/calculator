@@ -11,13 +11,7 @@ public class Arithmetic {
     var precedence = intArrayOf(0, 1, 2, 3)
 
     private fun isOperator(t: Char): Boolean {
-        var i: Int = 0
         return opss.contains(t)
-//        while (i < opss.size) {
-//            if (t == opss[i]) return true
-//            i++
-//        }
-//        return false
     }
 
     fun evaluate(expression: String): Float {
