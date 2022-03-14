@@ -11,6 +11,7 @@ class FirebaseSource @Inject constructor() {
         FirebaseAuth.getInstance()
     }
 
+    //TODO
     private val firebaseDataBase: FirebaseDatabase by lazy {
         FirebaseDatabase.getInstance()
     }
@@ -28,6 +29,7 @@ class FirebaseSource @Inject constructor() {
         }
     }
 
+    //TODO
     fun currentUser() = firebaseAuth.currentUser
 
 
